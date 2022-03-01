@@ -2,10 +2,10 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: "50"
+replicaCount: "500"
 
 image:
-  repository: "registry.digitalocean.com/bellaciao/nowarddos"
+  repository: "registry.digitalocean.com/bellaciao/attacker"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
